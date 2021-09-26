@@ -7,5 +7,10 @@
   "workspaces": [
     "apps/*",
     "packages/*"
-  ]
+  ],
+  "scripts": {
+    "dev": "yarn workspaces foreach run dev",
+    "build": "yarn workspaces foreach run build",
+    "export": "yarn workspaces foreach run export"
+  }
 }
