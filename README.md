@@ -1,5 +1,5 @@
 # Overview
-This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspaces) and [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to achieve a monorepo setup. Shared components/libaries can be stored individually within the `packages` folder, and can be used across all webapps.
+This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspaces) and [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to achieve a monorepo setup. Shared components/libaries can be stored individually within the `packages` folder, and then used across all webapps.
 
 
 # Requirements
