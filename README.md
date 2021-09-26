@@ -15,16 +15,16 @@
         - Package name (no overlapping)
         - Port used for dev (no overlapping)
         - Replace script commands with the ones in the example folder
-    - Replace next's starter next.config.js with the one in the example
+        - Replace next's starter next.config.js with the one in the example
+- `cd` into your new webapp
     - Install NEXT-IMAGES with `yarn add next-images`
     - Install next-transpile-modules with `yarn add next-transpile-modules`
-    - Install workspace-tools for yarn workspaces commands with `yarn plugin import workspace-tools`
+- Back in root
+    - Install workspace-tools for yarn workspaces commands with `yarn plugin import workspace-tools` if its not installed
     - **Remove example webapp from the apps folder**
 
 
 # Run commands
-There is no need for script commands in the root folder, as everything is ran with Yarn Workspaces. Since we will be using `yarn workspaces` for our run commands, ensure that your global yarn is > v2.
-
 Running dev environment - port is tied to what you specified in your webapp's package.json:
 
 `yarn workspaces foreach run dev`
