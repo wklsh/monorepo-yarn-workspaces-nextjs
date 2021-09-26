@@ -43,4 +43,4 @@ Building static export — build assets will be pushed into `build-static`:
 
 
 # Using common react components across webapps
-- For a start, HelloWorld's import path will be `"../../../packages/common/src"`
+- Nothing much to this, just import components in as per usual. For reference, `HelloWorld`'s path in your webapp's index page would be `../../../packages/common/components/HelloWorld/HelloWorld`.
