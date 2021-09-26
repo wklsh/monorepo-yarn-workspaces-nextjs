@@ -7,7 +7,15 @@
     - [workspace-tools](https://yarnpkg.com/cli/workspaces/foreach)
 
 
-# Getting started / Initialising a new webapp
+# Getting started
+- For a start, go ahead and run
+`yarn install`
+
+- Get started with [Initialising a new webapp](#initialising-a-new-webapp)
+
+
+
+# Initialising a new webapp
 - **In the apps folder:**
     - Initialise a new nextjs project with `yarn create next-app`
 - **In your new webapp folder:**
