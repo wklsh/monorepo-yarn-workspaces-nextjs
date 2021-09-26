@@ -1,0 +1,11 @@
+{
+  "name": "app-1-example",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev -p 3001",
+    "build": "next build",
+    "start": "next start",
+    "export": "next build && next export -o ../../build-static/$npm_package_name"
+  }
+}
