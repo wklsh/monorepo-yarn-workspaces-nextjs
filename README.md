@@ -20,7 +20,7 @@
     - Install NEXT-IMAGES with `yarn add next-images`
     - Install next-transpile-modules with `yarn add next-transpile-modules`
 - Back in root
-    - Install workspace-tools for yarn workspaces commands with `yarn plugin import workspace-tools` if its not installed
+    - If its not already installed, go ahead and add workspace-tools with `yarn plugin import workspace-tools`. This allows us to run `yarn workspaces foreach` commands
     - **Remove example webapp from the apps folder**
 
 
