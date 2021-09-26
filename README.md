@@ -1,5 +1,5 @@
 # Overview
-- This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspaces) and [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to achieve a monorepo setup. Shared components/libaries can be stored individually within the `packages` folder, and can be used across all webapps.
+This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspaces) and [next-transpile-modules](https://www.npmjs.com/package/next-transpile-modules) to achieve a monorepo setup. Shared components/libaries can be stored individually within the `packages` folder, and can be used across all webapps.
 
 
 # Requirements
@@ -9,7 +9,6 @@
 
 # Getting started
 - Run `yarn install`
-
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
 
 
@@ -17,15 +16,21 @@
 # Initialising a new webapp
 - **In the apps folder:**
     - Initialise a new nextjs project with `yarn create next-app`
+
+
 - **In your new webapp folder:**
     - Update package.json
         - Package name (no overlapping)
         - Port used for dev (no overlapping)
         - Replace script commands with the ones in the example folder
         - Replace next's starter next.config.js with the one in the example
+
+
 - **`cd` into your new webapp**
     - Install NEXT-IMAGES with `yarn add next-images`
     - Install next-transpile-modules with `yarn add next-transpile-modules`
+
+
 - **Back in root**
     - If its not already installed, add workspace-tools with `yarn plugin import workspace-tools`. This allows us to run `yarn workspaces foreach` commands
     - **Remove example webapp from the apps folder**
