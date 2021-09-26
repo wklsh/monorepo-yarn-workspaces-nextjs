@@ -8,8 +8,7 @@
 
 
 # Getting started
-- For a start, go ahead and run
-`yarn install`
+- Run `yarn install`
 
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
 
@@ -28,7 +27,7 @@
     - Install NEXT-IMAGES with `yarn add next-images`
     - Install next-transpile-modules with `yarn add next-transpile-modules`
 - **Back in root**
-    - If its not already installed, go ahead and add workspace-tools with `yarn plugin import workspace-tools`. This allows us to run `yarn workspaces foreach` commands
+    - If its not already installed, add workspace-tools with `yarn plugin import workspace-tools`. This allows us to run `yarn workspaces foreach` commands
     - **Remove example webapp from the apps folder**
 
 
