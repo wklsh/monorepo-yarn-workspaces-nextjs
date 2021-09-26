@@ -40,6 +40,7 @@ Building static export — build assets will be pushed into `build-static`:
 
 # Caveats
 - If your project requires a static build, ensure that you are not using `Next/images` components in your webapp. This will cause builds to FAIL.
+- Since its a monorepo setup, you will need multiple .gitignore's for each web application.
 
 
 # Using common react components across webapps
