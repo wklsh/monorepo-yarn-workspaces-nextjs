@@ -8,6 +8,7 @@ This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspa
 
 
 # Getting started
+- Ensure that your yarn is running > v2. [Consider installing yarn v2 per-project as well](https://yarnpkg.com/getting-started/install#per-project-install)
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
 - Run `yarn install` if necessary
 
