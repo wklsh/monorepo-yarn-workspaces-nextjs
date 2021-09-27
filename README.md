@@ -8,7 +8,7 @@ This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspa
 
 
 # Getting started
-- Ensure that your yarn is running > v2. Consider [installing yarn >v2 per-project](https://yarnpkg.com/getting-started/install#per-project-install) as well
+- Ensure that your yarn is running > v2. Yarn behaving fucky? [This](#caveats) might help
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
 - Run `yarn install` if necessary
 
@@ -47,6 +47,7 @@ Building static export — build assets will be pushed into `build-static`:
 # Caveats
 - If your project requires a static build, ensure that you are not using `Next/images` components in your webapp. **It will not work.**
 - Since its a monorepo setup, you will need multiple .gitignore's for each web application.
+- If you upgraded yarn in the midst of your initial setup, yarn might fail whenever you try to run any of its command. Try removing `.yarnrc.yml` from your project before running `yarn set version berry` again.
 
 
 # Using common react components across webapps
