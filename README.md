@@ -17,7 +17,7 @@ This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspa
     - Initialise a new nextjs project with `yarn create next-app`
 - **In your new webapp folder:**
     - Update package.json
-        - Package name (no overlapping)
+        - Package name, if you did not run via `yarn create next-app` (no overlapping)
         - Port used for dev (no overlapping)
         - Replace script commands with the ones in the example folder
         - Replace next's starter next.config.js with the one in the example
