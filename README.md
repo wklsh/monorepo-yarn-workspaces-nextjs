@@ -8,9 +8,8 @@ This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspa
 
 
 # Getting started
-- Run `yarn install`
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
-
+- Run `yarn install` if necessary
 
 
 # Initialising a new webapp
