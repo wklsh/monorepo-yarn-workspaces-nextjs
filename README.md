@@ -8,7 +8,7 @@ This boilerplate utilises [yarn workspaces](https://yarnpkg.com/features/workspa
 
 
 # Getting started
-- Ensure that your yarn is running > v2. Yarn behaving fucky? [The caveats section](#caveats) might help
+- Ensure that your yarn is running > v2. Is Yarn misbehaving? [The caveats section](#caveats) might help
 - Get started with [Initialising a new webapp](#initialising-a-new-webapp)
 - Run `yarn install` if necessary
 
